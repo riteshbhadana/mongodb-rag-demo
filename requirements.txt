@@ -1,0 +1,7 @@
+pymongo
+openai
+langchain
+langchain_community
+pypdf
+langchain-openai
+sentence-transformers
