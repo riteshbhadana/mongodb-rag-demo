@@ -68,5 +68,6 @@ if st.button("Search"):
         for r in results:
             st.write(f"Score: {r['score']:.3f}")
             st.write(r["text"])
+            st.write("Secret loaded:", bool(st.secrets.get("MONGO_URI")))
             st.divider()
 
