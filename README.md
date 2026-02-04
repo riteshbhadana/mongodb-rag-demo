@@ -1,6 +1,6 @@
 # MongoDB RAG Semantic Search
 
-A Retrieval-Augmented Generation (RAG) style semantic search system built using local embeddings and MongoDB Atlas vector search. The application allows users to query a document and retrieve the most semantically relevant text chunks using cosine similarity.
+A Retrieval-Augmented Generation (RAG) style semantic search system built using local embeddings and MongoDB Atlas vector search. The application allows users to query a document and retrieve the most semantically relevant text chunks using cosine similarity.(add ip addrees from site)
 
 This project demonstrates an end-to-end vector retrieval pipeline suitable for production-style AI systems.
 
