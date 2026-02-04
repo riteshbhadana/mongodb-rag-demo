@@ -14,7 +14,7 @@ def get_embedding(text):
     return embedding_model.encode(text).tolist()
 
 # ---------- MongoDB ----------
-client_db = MongoClient("mongodb+srv://riteshsinghaie_db_user:KEWeM6AjPj2v2TMW@rag.dp1s0mv.mongodb.net/?retryWrites=true&w=majority")
+client_db = MongoClient("MONGO_URI")
 collection = client_db["rag_db"]["test"]
 
 # ---------- Retrieval ----------
